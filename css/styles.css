@@ -1,8 +1,10 @@
 html {
   box-sizing: border-box;
-  background-color: var(--blanco);
+  background-color: #ffff;
   font-size: 62.5%; /* 1REM = 10px*/
+  font-family: 'Times New Roman', Times, serif;
 }
+
 *,
 *:before,
 *:after {
@@ -11,15 +13,16 @@ html {
 
 h1 {
   text-align: center;
-  margin-bottom: 100px;
-  font-size: 2.8rem;
+  font-size: 4.5rem; /* Aumenta el tamaño de fuente */
+  padding: 1rem;
 }
+
 h2 {
-  padding: 30px;
+  font-size: 2rem;
+  padding: 1rem;
 }
 
 .header {
-  font-family: 'Times New Roman', Times, serif;
   background-color: #e6e6e6;
 }
 
@@ -29,12 +32,13 @@ h2 {
   padding: 1em;
 }
 
+/* utlilidad */
 .titulos {
   color: #005677;
   text-transform: uppercase;
   background-color: #c4c4c4;
-  letter-spacing: 0.2em;
-  padding: 3px;
+  letter-spacing: 0.29rem;
+  font-weight: bold;
 }
 
 section .titulos {
@@ -46,23 +50,25 @@ span {
 }
 
 .contenido__texto {
-  padding: 30px;
+  padding: 3rem;
   line-height: 1.5;
+  font-size: 1.5rem;
 }
+
 .contenido:first-child {
   font-style: italic;
 }
 
 .contenido__texto:last-of-type {
-  margin-bottom: 60px;
+  margin-bottom: 6rem;
 }
 
 .footer {
   display: flex;
-  gap: 20px;
+  gap: 2rem;
   justify-content: center;
   color: #ffff;
   text-transform: uppercase;
   background-color: #005677;
-  padding: 10px;
+  padding: 1rem;
 }
